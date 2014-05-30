@@ -1,0 +1,16 @@
+/*Credits: CSSpplay */
+/*URL: http://www.cssplay.co.uk/menus/pro_five */
+
+.preload17a {background: url();}
+.preload17b {background: url();}
+.menu5 {padding: 5px 0 0 1em; margin:0; margin-top:-10px; list-style:none; height:40px; position:relative; background:transparent url() repeat-x left bottom; font-size:12px;}
+.menu5 li {float:right; height:40px; margin-right:1px;}
+.menu5 li a {display:block; float:left; height:40px; line-height:35px; color:#333; text-decoration:none; font-weight: normal; font-family: 'Yanone Kaffeesatz', arial, serif; text-shadow: none; text-align:center; padding:0 0 0 4px; cursor:pointer; background:url() no-repeat;}
+.menu5 li a b {float:left; display:block; padding:0 16px 5px 12px; background:url() no-repeat right top;}
+.menu5 li.current a {color:#000; background:url() no-repeat;}
+.menu5 li.current a b {background:url() no-repeat right top;}
+.menu5 li a:hover {color:#000; background: url() no-repeat;}
+.menu5 li a:hover b {background:url() no-repeat right top;}
+.menu5 li.current a:hover {color:#000; background: url() no-repeat; cursor:default;}
+.menu5 li.current a:hover b {background:url() no-repeat right top;}
+

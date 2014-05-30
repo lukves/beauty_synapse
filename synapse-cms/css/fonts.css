@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('/synapse-cms/fonts/BebasNeue-webfont.eot');
+    src: url('/synapse-cms/fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/synapse-cms/fonts/BebasNeue-webfont.woff') format('woff'),
+         url('/synapse-cms/fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('/synapse-cms/fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LRegular';
+	src: url('./synapse-cms/fonts/TitilliumText22L003-webfont.eot'),
+		 url('./synapse-cms/fonts/TitilliumText22L003-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('./synapse-cms/fonts/TitilliumText22L003-webfont.woff') format('woff'),
+		 url('./synapse-cms/fonts/TitilliumText22L003-webfont.ttf') format('truetype'),
+		 
+	src: url('/synapse-cms/fonts/TitilliumText22L003-webfont.eot'),
+		 url('/synapse-cms/fonts/TitilliumText22L003-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/synapse-cms/fonts/TitilliumText22L003-webfont.woff') format('woff'),
+         url('/synapse-cms/fonts/TitilliumText22L003-webfont.ttf') format('truetype'),
+         url('/synapse-cms/fonts/TitilliumText22L003-webfont.svg#TitilliumText22LRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url('http://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v3/YDAoLskQQ5MOAgvHUQCcLRTHiN2BPBirwIkMLKUspj4.woff') format('woff');
+}
+
+
+@font-face
+{
+    font-family: facebookLetterFaces;
+    src: local('./synapse-cms/fonts/FACEBOLF.OTF'), url('/synapse-cms/fonts/FACEBOLF.OTF');
+}
+
+@font-face
+{
+    font-family: JennaSue;
+    src: local('./synapse-cms/fonts/JennaSue.ttf'), url('/synapse-cms/fonts/JennaSue.ttf');
+}
+
+@font-face
+{
+    font-family: MTF;
+    src: local('./synapse-cms/fonts/MTF.ttf'), url('/synapse-cms/fonts/MTF.ttf');
+}
+
+#thankyou{
+	font-family:JennaSue;
+	font-size:80px;
+	font-weight:100;
+	text-shadow: 2px 2px 5px #444;
+	margin-top:15px;
+}
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url('http://themes.googleusercontent.com/static/fonts/ubuntu/v4/_aijTyevf54tkVDLy-dlnD8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu'), url('http://themes.googleusercontent.com/static/fonts/ubuntu/v4/_xyN3apAT_yRRDeqB3sPRg.woff') format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url('http://themes.googleusercontent.com/static/fonts/ubuntu/v4/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}

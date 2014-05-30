@@ -1,0 +1,15 @@
+/*Credits: CSSpplay */
+/*URL: http://www.cssplay.co.uk/menus/pro_seventeen */
+
+.preload17a {background: url(../themes/images/interface/menu/pro_17/pro_seventeen_1a.gif);}
+.preload17b {background: url(../themes/images/interface/menu/pro_17/pro_seventeen_1b.gif);}
+.menu5 {padding:5px 0 0 1em; margin: 0; margin-top:-10px; list-style:none; height:35px; position:relative; background:transparent url(../themes/images/interface/menu/pro_17/pro_seventeen_0c.gif) repeat-x left bottom; font-size:12px;}
+.menu5 li {float:right; height:35px; margin-right:1px;}
+.menu5 li a {display:block; float:left; height:35px; line-height:33px; color:#333; text-decoration:none; font-weight: normal; font-family: 'Yanone Kaffeesatz', arial, serif; text-shadow: none; text-align:center; padding:0 0 0 4px; cursor:pointer; background:url(../themes/images/interface/menu/pro_17/pro_seventeen_0a.gif) no-repeat;}
+.menu5 li a b {float:left; display:block; padding:0 16px 5px 12px; background:url(../themes/images/interface/menu/pro_17/pro_seventeen_0b.gif) no-repeat right top;}
+.menu5 li.current a {color:#000; background:url(../themes/images/interface/menu/pro_17/pro_seventeen_2a.gif) no-repeat;}
+.menu5 li.current a b {background:url(../themes/images/interface/menu/pro_17/pro_seventeen_2b.gif) no-repeat right top;}
+.menu5 li a:hover {color:#000; background: url(../themes/images/interface/menu/pro_17/pro_seventeen_1a.gif) no-repeat;}
+.menu5 li a:hover b {background:url(../themes/images/interface/menu/pro_17/pro_seventeen_1b.gif) no-repeat right top;}
+.menu5 li.current a:hover {color:#000; background: url(../themes/images/interface/menu/pro_17/pro_seventeen_2a.gif) no-repeat; cursor:default;}
+.menu5 li.current a:hover b {background:url(../themes/images/interface/menu/pro_17/pro_seventeen_2b.gif) no-repeat right top;}

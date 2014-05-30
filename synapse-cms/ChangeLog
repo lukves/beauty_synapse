@@ -1,0 +1,332 @@
+== ChangeLog ==
+
+
+$Luko Write:
+
+
+March 2014
+** create user-share.php for send message text and share it on user board
+
+February 2014
+**
+** DEFAULT IS PRIVACY_MODE 0 THIS MEAN ENABLED ENHACED DATABASE PASSWORDS WITH SALT and CRYPT FILES 0 DISABLED
+**
+** crypt files is as default disabled
+** implement simple HashMe function 
+    more info and inspired by http://hungred.com/useful-information/php-better-hashing-password/
+	for enable make clean databse table before put synapse to your ftp
+	becouse in database are some few new variables like salt, name, surname
+	and switch on $obj->privacy_mode=0;
+** MD5 for passwords as default for now, in future goes with SHA
+** add support for central password system
+** add support for registration with Name and Surname and witthout it
+   needed changes in database layout - privacy_mode
+** fix display_friend_messasges() - getinform() and top page
+   style fix on bottom (padding-left, padding-right)
+** disable permanently crypto function for files, becouse previoes was
+   bad implementation, libcrypto can be used only for passwords and text
+
+January 2014
+** changes to synapse-cms registration - add name and surname of new user
+** display_messages is whole rewrited and try to fix page numbering
+
+November 2013
+** Bodytext and Title now are encrypted, recyclebin, bookmarks, and share
+    are i think compatible with encrypted too, with added to changes..
+** small changes in message layout and make preview_type=3 as default
+
+September 2013
+** add slider JS function
+** add tinymce JS wisiwig support
+
+August 2013
+** changes to RSS channel - add support for user RSSs
+** add a karma likes function
+** add Change Template option to admin panel **
+** add preview_header==2 as default
+** BOOKMARKS support !!! with favourites table in DB
+** themecity added - change wallpaper by user messages
+
+** switch back to MIT license **
+** audioplayer is now complete and fully operational
+   with bottom popup menu support and Your Playlist.
+
+* Reply direct bottom at message
+* FIX ZEROPAGE AND PAGE
+* FIX VIEWPAGE error
+* start work at new stage_run as stage_exec
+
+JULY 2013
+* Delete button for users added 
+
+* add share a public message or message from channel
+* switch from ##ALLFRIENDS## to ##SHARED## for Share Data
+
+* add support for toplist.sk track system - add to synapsecms
+	and to config.php
+
+JUN 2013
+* usersettingsbg_opt for change wallpaper background
+* improved new theme Haiku
+* small changes and fixes in synapsecms and synapseusers
+* list and classic mode
+
+* small change in display_friend_friends_option to display as link button with ask for friends
+    - need add visible fix !!!
+* add iframe youtube button support to Create Message and small insert_youtube() jav[Aascript function
+
+MAY 2013
+* yes, we have now small javascript function for reload page, now only in stage_run.php
+* userslist plugin
+* add isadmin == private ? 
+* new array: security for store ceys for enable hidden messages ->
+  -> changes to synapsecms.php, synapsecms-users.php and stage_run.php
+
+APRIL 2013
+
+* small fix to <div id="alt">bodytext to search and other fixes
+* add template variable for template support
+
+MAR 2013
+
+* add $synapse_info and $synapse_dir to synapsecms.php
+
+* add license text to some php files
+* change license from MIT to GNU Affero (best license for internet services)
+* change a from red color to comment_bg-select.jpg in search function
+
+FEB 2013
+
+* fix session_register in stage_init.php
+
+JAN 2013
+
+  -- Version 1.4 --
+* add to fill_callendar $s for disable sidebar panel 
+* change messages in display_messages()
+
+  -- Version 1.3 --
+* use nicetime() in friend_messages() and display_zero()
+
+* add a fill_calendar() for display a months for filter messages by date (aside panel)
+* add support for display messages by date to display_messages(), too.
+* add support for display messages by date, only for display_zero()
+* switch from crated varchar to integer in data table
+
+DEC 2012
+
+* try to fix display_zero, short by datum
+* fix font size in css/defaults.css (.messages)
+* add label to display_zero
+* fix a image paths of vote_up/down in synapsecms.php
+
+(Oct 2012)
+
+>> Revision1.3 <<
+
+>> add search in themes/ and synapse-cms/themes to css.php
+>> add a Edit Menu string to settings with link to admin_editmenu.php, its only hyperlink
+   nothing code added, becouse synapsecms-menu is external lib.
+>> create adming_editmenu.php for create and edit menu for index page - its optional.
+
+>> Revision1.2 <<
+
+>> make auto load guestbook and menu synapse-cms
+>> add to synapse initial work on synapsecms-menu.php
+>> move from config.php part of guestbook toend of synapsecms-guestbook.php
+    do this some to synapsecms-menu.php
+
+>> fix in post-message.php ($_POST)
+>> add a css.php with code from header.php for load additional css files from themes/
+>> fix themes alternative path to CSS themes in header.php
+>> add $synapse_version variable
+
+>> add a Public Ask and logic for do it.
+>> add again to synapse menu css styles and images themes/images/interface/menu
+>> add to synapse-cms.php new preview_type == 2 with custom defined pre code
+>> add msg-* to css/defaults.css
+
+>> add flags images to themes/images/ to synapse
+>> add .smallfont css variable for default report message style
+>> add synapse_path variable
+
+>> remove info about callses in contstructor
+   changes in rss-channel.php
+
+(September 2012)
+
+>> add a get_bodytext() and read more to synapsecms.php,
+	to stage_run.php add get[message]..
+
+>> changes in div=messages, remove a href, changes in synapsecms in more
+	message preview functions..
+
+>> display_search_zero() for non-login homepage search in public messages.
+
+>> Change div="menu" to div="messages" in synapsecms.php, synapsecms-guestbook.php 
+    and change in css/default.css
+
+>> move all png,jpg image files from themes/ to themes/images/interface/layout/
+
+:: Aug 2012
+
+** more style bugs fixed, footer bugs view and more 
+
+* add new pre_6 menu buttons and make modules menu_style1.css, 2, 3, 4, and so...
+
+:: July 2012
+
+* add support for new type of sending messages via Follow Widget plugin
+
+* fix a fill_view_option (0 or 1)
+
+* import /for now not working/ experimental Wordpress Ubuntu Unity plugin
+    from:  https://code.launchpad.net/~mhall119/+junk/wordpress-ubuntu-webapps/
+
+* add user-like.php, user-messages.php
+
+* add alt/wiki new page layout
+
+:: June 2012
+
+* add @import to index.css, add new styles to css/ and small changes to synapsecms.php 
+  for display_login and display_register, change a buttonka id
+
+-----
+
+* fix version for phones /alt/mobi and version for tablets /alt/mobi-tabl
+
+* Add support for display "Available Plugins of friend" menu
+
+* Fix alt/hist/index-new.php (prev, next)
+
+* Add Gallery-1 plugin for view my and other friends picture galleries..
+
+    my gallery:  index.php?plugin=gallery-1
+    gallery of my friend:  index.php?plugin=gallery-1&user=myfriend
+
+  only my and friends in my contacts preview..
+
+* Add support for distribut MP3 Playlist and settings plugin
+
+* Add suport for helper.js
+
+* Add Fancybox JS engine sources to tree
+
+* Add index-logo.png
+
+* Add support for change password
+
+* Add support to Synapse-CMS a auto create first message
+  by first loged user..
+
+* Add support for REG_TYPE variable for disable - Ask Channel Reg
+* Add a HAIKU-WWW for Haiku Slovak fan pages  Page Layout..
+
+* Add admin_global.php
+* Add Backup_Table to Synapse CMS
+
+* Add a alt/hist index-new.php, 
+* Add a _SESSION[zeroview]
+
+* Add support for custom slideloading defined in each css theme
+
+* Add a Blog engine to Synapse CMS, and now each user have his blog
+
+* GPLv2 License used.
+* info_howmany_  friendships / channels_following
+
+* update info.php, display.php, privacy.php with new dialog system
+* add a profile.php
+
+$Luko Write
+
+* add support for My Menu
+* changes for My Menu in index.php and stage_run.php
+* display info about user in Find Friends - change in synapsecms.php
+
+$Luko Write
+
+* Change to propiertary license
+
+$Luko Write
+
+* add simple blog engine - under a work - ..
+* Released under a TERMS a GPL License.
+
+$Luko Write
+
+* add new font in fonts/ folder : YanoneKaffeesatz-Regular
+  and small change to use this font as title and slogan and for menu buttons, switch from 11px to 12px font
+
+$Luko Write
+
+* small changes to plugins
+* add a adminsettings and preview of loading plugins
+
+$Luko Write
+
+* add support for Plugins, autodetect plugin: 
+    ₊ create folder for your plugin in plugins/ directory
+    + ad to this directory two files: index.php and stage_run.php
+* add list_files, delete_file.php
+* new style for display_post_login
+* add player, explorer and shop plugins.. only explorer is default, other plugins you can
+  copy from plugins-installers to plugins/ folder..
+
+$Luko Write
+
+* starting work of localisation.. add to index.php select dialog and suport in databs.js and plugins.js
+  setActiveLanguage(), synapse_locale_print()....
+* small fix to datab.js
+* replace js font with fonts defined in fonts.css
+
+$Luko Write
+
+* add a About dialog to index.php 
+
+$Luko Write
+
+* style buttonka for skinable button, add css/ folder for additional css files..
+* add support for AD (advertising) ad.php loaded in index.php at the end..
+
+$Luko Write
+
+* Add support for Upload_MyFile, List_Image_Files
+* Add a Contacts with sendingform to administrator
+
+$Luko Write
+
+* view a admin text in header if admin is login
+* view a footer panel, view a howmanyfriends/channels
+* view a mozilla logo..
+
+$Luko Write
+
+* Add support for spracuj_form() the function who correct a html commands
+  and remove hyperlink in message..
+
+$Luko Write
+
+* repair a javascript form checks, move a code to js/checkform.js file..
+
+$Luko Write:
+
+* Add support for more menus, today only menu5 and menu17
+  downloaded from: CSSPlay.co.uk/
+  More some parts from default.css to index.css and some parts from index.php
+  to index.css and to defaults.css : the priority is make clean a understand
+  a CSS  code.
+  defaults.css, and other in /themes : are for page layouts
+  index.css : are tweets, messages, menu and others..
+  addons.css : are for messages and addons.
+  style.css : depre..
+  reset.css : is for reset a CSS variables..
+* Add support for Cancel a Notiffication..
+* Add support for Ask for Register Info Channel..
+* Add support for RSS generator
+* Add support for Send Message from your website
+* Add support for login, register from <a href>
+* Add support for Search in Messages
+* Reorganize structure for page
+* Add a new template with name Blank Page.css

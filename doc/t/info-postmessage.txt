@@ -1,0 +1,9 @@
+== Example:  send message to user ==
+
+
+<form NAME="formular" action="http://www.blogino.6f.sk/synapse-cms/post-message.php" method="post" onsubmit="">
+<p><input type="hidden" name="synapse-title" value="Message from YOURSITE"></p>
+<p><input type="hidden" name="synapse-sendto" value="user"></p>
+<p><textarea class="msgarea" name="synapse-bodytext"></textarea></p>
+<p><input id="bcreate" type="submit" value="Send Message" /></p>
+</form>

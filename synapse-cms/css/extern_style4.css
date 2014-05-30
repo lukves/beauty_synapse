@@ -1,0 +1,9 @@
+#buttonka{ 
+font-family:Ubuntu;font-size:14px;
+background:#cbe1f0 url(../themes/images/interface/buttonka-blue.gif) repeat-x 0 0;padding:4px 10px;-moz-border-radius:4px 4px 4px 4px;border:1px solid #c0d6eb;border-color:#c0d6eb #b2cdde #a6c0d0;text-align:center;color:#73a0c2;text-shadow:0 1px 1px #FFF}
+#buttonka:hover{text-decoration:none;color:#474e57
+border-radius: 5px;
+border: 1px solid #000000;
+font-weight: normal;
+}
+

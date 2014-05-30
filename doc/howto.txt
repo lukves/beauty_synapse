@@ -1,0 +1,43 @@
+== SYNAPSE HACKING ==
+
+
+1) To Your page add this code to selected site..
+
+
+<form NAME="formular" action="http://www.linuxaci.6f.sk/post-message.php" method="post" onsubmit="">
+<input type="hidden" name="synapse-title" value="Message from lukves.ic.cz">
+<input type="hidden" name="synapse-sendto" value="lukves">
+<textarea class="msgarea" name="synapse-bodytext"></textarea>
+<input id="bcreate" type="submit" value="Send Message" />
+</form>
+
+
+2) How to put to your page a "Be Friends" widget?
+
+<form NAME="formular" action="http://www.linuxaci.6f.sk/be-friends.php" method="post" onsubmit="">
+<input type="hidden" name="synapse-title" value="friendship">
+<input type="hidden" name="synapse-sendto" value="lukves">
+<input type="hidden" name="synapse-bodytext" value="I want be Your friend!">
+<input id="bcreate" type="submit" value="Be Friends" />
+</form>
+
+3) How to make Your new Page Layout?
+
+stage_init.php - must be at the begin of page..
+stage_button.php - you can put where you want, must be in <form></form>
+stage_run.php - is important CORE of whole CMS.
+
+at the first, when you dont want use stage_init.php you must include
+synapsecms.php and config.php
+
+config.php contains a data for connect to database, name of database and server.
+in this file you can configure name of your portal and slogan.
+
+there is important variable preview_type with this you can change 
+of type of view a messages. (0, 1, 2)
+
+
+suported database is only MySQL
+
+
+-- luko

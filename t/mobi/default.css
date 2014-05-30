@@ -1,0 +1,188 @@
+body {
+	margin: 5px 5px;
+	font-family: verdana, tahoma, arial, helvetica, sans-serif;
+	font-size: 0.7em;
+	color: black;
+	background-color: #e0e0e0;
+	
+}
+
+a {
+	color: #000080;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.page {
+	border: 2px solid black;
+	width: 800px;
+	margin: auto;
+	background: #ebebeb;
+}
+
+ul.links {
+	list-style-type: none;
+	margin: 0.0em;
+	padding: 0.0em;
+}
+ul.links li {
+	background-image: url("bg_thead.gif");
+	display: block;
+	float: left;
+	margin: 0em;
+	border-bottom: 2px solid black;
+	padding: 0.4em 0.6em;
+}
+h1 { font-size: 64px; border-bottom: 1px dotted black; margin: 0 0 10px 0; color: #000080; }
+h2 h3 { font-size: 24px; font-family: "Monospace"; border-bottom: 1px dotted black; margin: 0 0 10px 0; color: #000080; }
+.code {
+	padding: 0.2em;
+	margin: 0.2em;
+	border: 1px dotted black;
+	background-color: #efefef;
+}
+.shadow {
+	DISPLAY: block; COLOR: black; POSITION: relative
+}
+.shadow NOBR {
+	DISPLAY: block; POSITION: absolute; TOP: 0px
+}
+.shadow.unknown {
+	PADDING-RIGHT: 2px; DISPLAY: block; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: #ccc; PADDING-TOP: 2px; content: attr(title)
+}
+DIV#logo {
+	FLOAT: right; MARGIN-LEFT: 10px
+}
+DIV#content {
+	WIDTH: 100%; HEIGHT:100%; POSITION: relative;
+	font-size: 12px;
+	font-family: "Monospace", fantasy;
+	background-image: url(img/header.png);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+}
+DIV#main {
+	background-color: #fffff;
+      
+	background-image: url("img/dots.png");
+	background-repeat:repeat;
+	filter: alpha(opacity=60); -moz-opacity: 0.6; opacity: 0.6;
+}
+DIV#text {
+	PADDING-TOP: 0px;
+	PADDING-BOTTOM: 0px;
+	}
+.title {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: baseline; COLOR: black;
+	font-size: 34px;
+	font-family: "Monospace", fantasy;
+}
+DIV.spacer {
+	CLEAR: both
+}
+
+/*
+.content {
+	padding: 1em;
+	margin: 2em 0em;
+} */
+
+.info {
+	text-align: center;
+	width: 380px;
+	padding: 0.2em;
+	margin: 0.2em;
+	color:#ffcc00;
+}
+
+
+strong {
+	color:#669900;
+}
+
+a .alt { display: none; }
+
+#loginbox {
+	background-image: url("img_tabs.jpg");
+}
+
+.loginpanel {
+	float: right;
+	width: 114px;
+	padding: 0.2em;
+	margin: 0.2em;
+	border-bottom: 1px dotted black;
+	color: black;
+/*	background-color: #ebebeb; */
+}
+
+.infopanel {
+	float: left;
+	width: 810px;
+	padding: 0.2em;
+	margin: 0.2em;
+	border-top: 1px dotted black;
+	color: black;
+/*	background-color: #ebebeb; */
+}
+               
+input#loginbox[type="text"], textarea#loginbox	{ padding: 3px; border: 1px solid black; width: 105px; margin: 0 0 5px 0; }
+input#loginbox[type="text"]				{ font: 28px; }
+textarea#loginbox						{ height: 14px; font: 12px "Lucida Grande", Sans-Serif; }
+label#loginbox							{ color: black; padding: 2px 6px; }
+.post#loginbox							{ margin: 0 0 20px 0; }
+.clear#loginbox							{ clear: both; }
+
+
+input[type="text"], textarea	{ padding: 3px; border: 1px solid black; width: 320px; margin: 0 0 5px 0; }
+input[type="text"]				{ font: 28px; }
+textarea						{ height: 14px; font: 12px "Lucida Grande", Sans-Serif; }
+label							{ color: black; padding: 2px 6px; }
+.post							{ margin: 0 0 20px 0; }
+.clear							{ clear: both; }
+
+
+.menu {
+	CLEAR: left; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 2px; WIDTH: 200px; PADDING-TOP: 0px;
+	border-right: 1px dotted black;
+	font-family: verdana, tahoma, arial, helvetica, sans-serif;
+}
+.menu LI {
+	LIST-STYLE-TYPE: none;
+}
+.menu LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 16px; PADDING-BOTTOM: 15px; MARGIN: 0px 0px; COLOR: black; PADDING-TOP: 15px; TEXT-ALIGN: center; TEXT-DECORATION: none;
+}
+.menu LI A:hover {
+	COLOR: #eaeaea;
+	BACKGROUND-COLOR: transparent;
+	FONT-SIZE: 22px;
+/*	border: 1px dotted black;*/
+}
+
+
+.submitted {
+  padding-top: 2px;
+  color: #999;
+  font-size: 0.9em;
+}
+
+.node {
+  margin: .5em 0 2em 0;
+  background-color: #fff;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 5px;
+}
+.sticky {
+  padding: .5em;
+  background-color: #fffae0;
+  border: 4px solid #ffcb32;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+

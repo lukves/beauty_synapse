@@ -1,0 +1,5 @@
+/* --- single block section paragraph --- */	
+accordion-container li.block div p {
+	position: static;
+	top: 0px;
+}

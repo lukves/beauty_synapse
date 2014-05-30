@@ -1,0 +1,79 @@
+== ChangeLog Templates ==
+
+Jan 2014
+* small reorganization of directory structure: 1) remove templates,
+    only yourfriends and net are installed as default, another themplates can be downloaded
+    and installed separately
+* changes to synapse-cms registration - add name and surname of new user
+* display_messages is whole rewrited and try to fix page numbering
+
+Sept 2013
+* more bug fixes and addons in fakebook profile template witch is as default
+
+August 2013
+* add intro to default
+* various fixes to templates and reorganize templates
+  structure add t-others for another 3dparty templates
+
+* changes to synapse-cms add preview_type==4
+
+July 2013
+
+- various fixess in Blogino theme - blogino is something like Bloger
+
+- more improve in Try theme - ad language menu and menu of title
+
+June 2013
+
+- big changes in Try theme, add  a menu and remove for now info panel
+
+- Haiku template is now fork of Try template with items from haikufans
+- changes in TRY template, new search field in TRY
+- add a info.php and support for theme switcher
+
+May 2013
+
+** refresh TRY template with new Black and White design
+** small changes to insert Code and add partial support for Private Channels
+
+** Implement Switch-Theme Plugin: index.php?plugin=switch-theme
+
+
+** new themes, like: haikufans, blogino, portal, and best theme Try!
+
+** reorganise directory structure
+
+** add a Send to Top javascript module
+
+** few bugfixes (loged user can not post from web page comment, or be friend)
+** add support for web+plug, and add web-files flugin
+   (etc.:  index.php?plug=explorer,  etc.: index.php?plugin=files)
+
+** change to blogino design.
+
+** add aside_exapnd for display aside bar only with better resolution
+** add aside right panel for display messages by date
+** PSY version: add support for to-bottom imaage
+
+** add support for alternative css files and themes/ 
+   support for synapse-cms/css.php
+** add footer_bg
+** add a slidder support:  images/slider.png, images-bg.png 
+   and code to index.php (javascript, html and css)
+
+** now here are three index files
+    * index.php - is current supported as default
+    * index-with-mwnu.php - is old with defined menu
+    * index-blog.php - when you wants create a blog
+
+
+** add support for screen width checker for corrent display
+   on smaller devices.. when is smaller thabn 830px then copy
+   a width of browser window
+** index-portl rename to index and index to index-blog
+** add support for ./synapse-cms/css.php
+** add msg-* to synapse-cms/css/defaults.css
+** use flags from synapse-cms
+** change ul li:hover background color
+
+** change to green color design

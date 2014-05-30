@@ -1,0 +1,11 @@
+#buttonka{ margin-bottom: 5px; border:1px solid #c1c5ca;line-height:30px;font-family:Ubuntu;font-size:14px;font-style:italic;-moz-border-radius:3px;-webkit-border-radius:3px;background:url("../themes/images/interface/buttonka.png") repeat-x 0 0;display:block;color:#7a7e87;text-shadow:0 1px 0 #fff;text-align:center;padding:0 15px
+border-radius: 5px;
+border: 2px solid #DBDBDB;
+margin-bottom: 5px;
+}
+#buttonka:hover{text-decoration:none;color:#474e57
+border-radius: 5px;
+border: 2px solid #000000;
+font-weight: normal;
+}
+

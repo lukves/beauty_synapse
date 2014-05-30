@@ -1,0 +1,15 @@
+body {background: url('back_pattern.png') repeat; position: relative;}
+*{margin:0;padding: 0;font-family: Arial;}
+.main_chrome{background: url('chrome_steps.png') no-repeat; width: 970px; height: 464px; margin: 0 auto; margin-top: 100px;}
+.main_ie{background: url('ie_steps.png') no-repeat; width: 970px; height: 464px; margin: 0 auto; margin-top: 100px;}
+.main_firefox{background: url('firefox_steps.png') no-repeat; width: 970px; height: 464px; margin: 0 auto; margin-top: 100px;}
+.steps{width:970px;height:129px; margin-top: 100px}
+.head_text_1{font-size:36px;color:white; position: relative; float: center; top: 44px; text-align: center}
+.head_text_2{padding-left: 15px; padding-right: 15px;  font-size:14px;color:white; position: relative; float: center; top: 50px; text-align: left}
+.container-int{position: relative; width: 970px; float: left; top: -135px;}
+.h3{font-size:12px;color:white;position: absolute; top:395px; width:250px;}
+.h4{font-size:11px;color:white;position: absolute; top:430px; width:250px;}
+.line{display:block;width:247px;height:1px;background:url(dot_line.png) no-repeat 0px 0px;position: absolute;top: 420px; width:250px;}
+a{color: #ff9d2b; text-decoration: none;}
+a:hover{color: #ff9d2b;text-decoration: underline;}
+

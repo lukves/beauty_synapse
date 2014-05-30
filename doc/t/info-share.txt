@@ -1,0 +1,9 @@
+== Example: share message from site to your blogino board ==
+
+
+<form NAME="formular" action="http://www.blogino.6f.sk/synapse-cms/post-message.php" method="post" onsubmit="">
+<p><input type="hidden" name="synapse-title" value="Zdielana správicka z www.lukves.6f.sk"></p>
+<p><input type="hidden" name="synapse-sendto" value="##SHARE##"></p>
+<p><input type="hidden" name="synapse-bodytext" value="Potrebuješ spravit web stránku? kontaktuj ma na: lukves at gmail dot com"></p>
+<p><input style="border: 2px solid #777; font-weight: bold; color: #777; background: transparent" type="submit" value="to Blogino" /></p>
+</form>

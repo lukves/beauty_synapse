@@ -1,0 +1,41 @@
+<?php
+
+ // ADMIN EMAIL -- user with this email is Admin of Web Portal
+ // $obj->adminemail = 'lukves@gmail.com';
+ 
+ // set your toplist.sk track id identifier
+ // $obj->track = 99999; 
+ 
+ // pleae select your prefered template with index file
+ $obj->template = "portal";
+ $obj->synapse_dir = "./synapse-cms/";
+
+	// admin - administrator of web portal
+	$obj->adminemail = array( 
+			'your_email1@gmail.com' => 'admin'
+//			'your_email2@gmail.com' => 'admin'
+			);
+
+    // * title of portal and short text
+    $obj->synapse_title = 'Synapse';
+    $obj->synapse_slogan = ' connect with friends';
+
+	// you can set default preview_type style of dysplaying messages
+	// $obj->preview_type = 0;
+
+	$obj->publicity = 0;
+	
+    // * disable or enable channel registration, or registration
+    $obj->reg_type = 1;
+  
+    $obj->lines = 5;
+    $obj->lines_vert = 15;
+
+   /* CHANGE THESE SETTINGS FOR YOUR OWN DATABASE */
+   
+    $obj->host = 'lo';
+    $obj->username = 'li';
+    $obj->password = 'password';
+    $obj->table = 'li';
+
+?>

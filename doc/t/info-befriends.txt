@@ -1,0 +1,9 @@
+== Example:  be friends with user ==
+
+
+<form NAME="formular" action="http://www.blogino.6f.sk/synapse-cms/be-friends.php" method="post" onsubmit="">
+<p><input type="hidden" name="synapse-title" value="friendship"></p>
+<p><input type="hidden" name="synapse-sendto" value="user"></p>
+<p><input type="hidden" name="synapse-bodytext" value="I want be Your friend!"></p>
+<p><input id="bcreate" type="submit" value="Be Friends" /></p>
+</form>

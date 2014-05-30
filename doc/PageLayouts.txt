@@ -1,0 +1,21 @@
+=== Alternative Page Layouts ===
+
+Synapse is based on one big object php class. This is core.
+The main components are stage_init.php, stage_buttons.php, stage_run.php and config.php,
+this files you can load with require in your index.php and make your custom layout.
+
+config.php - contains a base configuration to connect with your database, and title for your page.
+stage_init.php - contains base initialisation part, start session and other
+stage_buttons.php - contains WORK BUTTONS (Login/Register and Reload, Settings and Logout), you can put it to your Page, where you wants
+stage_run.php - contains a main CORE of page with view messages.
+
+there is posible to use inherit class functions like display_messages_form, but its not tested..
+
+there are also info.php, display.php and very important are message.php for link messages and admin pages.
+
+please, dont worry when you look inside a code.. you can say, brrrrr, i dont understand what thell is it? how loot of code.... 
+the true is simple. ITS WORKS !!! this is only important..
+
+In this folder are alternative, not finished Page Layouts.
+
+-- luko

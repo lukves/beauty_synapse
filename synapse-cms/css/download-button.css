@@ -1,0 +1,18 @@
+.form-download-button {
+	background: url(../themes/images/sprite.png) no-repeat -362px 0;
+	height: 32px;
+	width: 92px;
+	margin: 0;
+	color: #996633;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+	border: none;
+	padding: 0 0 3px 0;
+	font-weight: bold;
+}
+
+.form-download-button:hover {
+	background: url(../themes/images/sprite.png) no-repeat -362px -33px;
+	color: #996633;
+	cursor: pointer;
+}
+
